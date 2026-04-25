@@ -37,12 +37,13 @@ Display options:
 
 Storage:
 
-- SPI microSD card adapter
+- SPI microSD card adapter (if we go with a board other than the Teensy)
 - or built-in microSD on Teensy 4.1
 
 ## Software Design
 
 The project currently uses a simple bare-metal style main loop instead of an RTOS.
+Maybe RTOS
 
 Main tasks include:
 
