@@ -1,7 +1,7 @@
 // =====================================================
 // Teensy 4.1 + IR Temperature Sensor Test Layout
 // =====================================================
-//
+//NOTE
 // Sensor wiring:
 //   Red   -> VIN (5V from USB-powered Teensy)
 //   Black -> GND
