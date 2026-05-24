@@ -1,4 +1,6 @@
 // Simple IR sensor test for Teensy 4.1
+// Takes readings, just needs to convert raw numbers to C/F units
+// 
 
 int sensorPin = A0;   // white wire goes here
 
@@ -11,7 +13,7 @@ void setup() {
 
 void loop() {
   int rawValue = analogRead(sensorPin);   // read sensor
-  float voltage = (rawValue / 4095.0) * 3.3;   // convert to voltage
+  float voltage = (rawValue / 4095.0) * 3.3;   // convert to voltage (testing)
 
   Serial.print("Raw: ");
   Serial.print(rawValue);
